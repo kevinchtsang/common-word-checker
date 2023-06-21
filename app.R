@@ -125,8 +125,7 @@ server <- function(input, output) {
     addMark(stringList(),highlightIdx())
   )
   output$outText <- renderText({paste(highlightList())})
-  
-  
+
   output$warningTotal <- renderText({sum(highlightIdx())})
   output$warningPerc <- renderText({paste0(
     round(100*sum(highlightIdx())/length(stringList()), 2),
@@ -135,7 +134,7 @@ server <- function(input, output) {
   # output$warningList <- renderText({stringList()[highlightIdx()]})
   
   # footer
-  url <- a("/kevinchtsang", href="https://github.com/kevinchtsang/common_word_checker")
+  url <- a("/kevinchtsang", href="https://github.com/kevinchtsang/common-word-checker")
   output$footer <- renderUI({
     tagList("Developed by ", url)
   })

@@ -1,5 +1,5 @@
 # Common Word Checker
-Shiny app to help check if your text uses the top 1000 most common words. Using the most common words is a method of ensuring that you are able to communicate with a wide audience. 
+Shiny app to help check if your text uses the top 1000 most common words. It will highlight the uncommon words in your text. Using the most common words is a method of ensuring that you are able to communicate with a wide audience. 
 
 You can use this app on your browser by [clicking here](https://hx2j2u-kevin-tsang.shinyapps.io/common_word_checker/).
 

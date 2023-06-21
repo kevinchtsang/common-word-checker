@@ -5,9 +5,9 @@ account: hx2j2u-kevin-tsang
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 9343787
-bundleId: 7371784
+bundleId: 7372438
 url: https://hx2j2u-kevin-tsang.shinyapps.io/common_word_checker/
-when: 1687363928.65782
-lastSyncTime: 1687363928.65784
+when: 1687376569.15007
+lastSyncTime: 1687376569.1501
 asMultiple: FALSE
 asStatic: FALSE
